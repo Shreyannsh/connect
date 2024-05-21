@@ -1,0 +1,10 @@
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 86px;
+}
+
+.logo {
+  width: 741px;
+  height: 212px;
+}
