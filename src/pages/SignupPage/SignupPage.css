@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+  /* Set the background image */
+  background-image: url("/src/assets/Parallax1.svg"); /* Replace with your image path */
+  background-repeat: no-repeat; /* Ensure the image doesn't repeat */
+  background-position: bottom center; /* Position the image at the bottom center */
+  background-size: cover; /* Make sure the image covers the entire area */
+  height: 212px; /* Set the height of the container with the background image */
+  width: 100%; /* Ensure the container takes the full width */
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  color: #252762;
+}
+
+.buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.signClass {
+  background-color: var(--primary);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.noSignClass {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+}
+.noSignClass:hover {
+  border: 1px solid #252762;
+  border-radius: 20px;
+}
