@@ -1,0 +1,26 @@
+.topSection {
+  margin-top: 7rem;
+  display: flex;
+  height: 400px;
+}
+
+.leftSection {
+  background-color: #252762;
+  width: 50%;
+  text-align: left;
+  color: white;
+  padding: 40px 60px 120px 20px;
+}
+
+h2 {
+  width: 60%;
+}
+
+.text {
+  width: 90%;
+}
+
+.rightSection {
+  width: 42%;
+  background-color: #c8caff;
+}
