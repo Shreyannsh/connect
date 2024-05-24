@@ -1,8 +1,9 @@
 import "./Intro.css";
+import Navbar from "./Navbar/Navbar";
 
 const Intro = () => {
   return (
-    <div>
+    <div className="introPage">
       <div className="topSection">
         <div className="leftSection">
           <h1>LOGO</h1>
@@ -17,6 +18,7 @@ const Intro = () => {
         </div>
         <div className="rightSection"></div>
       </div>
+      <Navbar />
     </div>
   );
 };

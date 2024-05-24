@@ -1,3 +1,7 @@
+.introPage {
+  position: relative;
+}
+
 .topSection {
   margin-top: 7rem;
   display: flex;
