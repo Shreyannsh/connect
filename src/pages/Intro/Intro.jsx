@@ -20,8 +20,19 @@ const Intro = () => {
         <div className="rightSection"></div>
       </div>
       <Navbar />
-      <div>{ICONS.line}</div>
-      <div></div>
+      <div className="line">{ICONS.line}</div>
+      <div className="container">
+        <div>
+          <h2>Construction Section</h2>
+          <p>
+            Cementing Dreams, Crafting Futures": At Connect, our success is
+            built on the dedication of every member of our team, from skilled
+            labourers to seasoned professionals...
+          </p>
+          <div>{ICONS.scrollCursor} More details</div>
+        </div>
+        <div></div>
+      </div>
     </div>
   );
 };

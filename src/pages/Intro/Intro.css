@@ -28,3 +28,7 @@ h2 {
   width: 42%;
   background-color: #c8caff;
 }
+
+.line {
+  z-index: 9;
+}
