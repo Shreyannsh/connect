@@ -1,6 +1,7 @@
 import "./Intro.css";
 import Navbar from "./Navbar/Navbar";
 import { ICONS } from "../../icons";
+import "../../images/assets/Frame construction.svg";
 
 const Intro = () => {
   return (
@@ -32,6 +33,29 @@ const Intro = () => {
       <div className="">
         <Navbar />
       </div>
+      <div className="container">
+        <div className="headingShadow">Construction</div>
+        <div className="containerContent">
+          <img
+            src={require("../../images/assets/Frame construction.svg").default}
+            alt=""
+            className="contentImage"
+          />
+          <div className="contentText">
+            <p className="contentTextHeader">
+              Build Your Vision with Expert Construction Services
+            </p>
+            <p className="contentTextDetail">
+              Cementing Dreams, Crafting Futures": At Connect, our success is
+              built on the dedication of every member of our team, from skilled
+              labourers to seasoned professionals...
+            </p>
+            <div className="moreDetailBtn">More details</div>
+          </div>
+        </div>
+      </div>
+
+      <div></div>
     </div>
   );
 };

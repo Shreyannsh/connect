@@ -5,7 +5,7 @@
 
 .introNavbar {
   display: flex;
-  width: 1119px;
+  width: 70%;
   padding: 20px 50px;
   justify-content: space-between;
   align-items: flex-start;
@@ -19,6 +19,7 @@
   border-radius: 8px;
   background: #fff;
   box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.1);
+  z-index: 2;
 }
 
 .option {
