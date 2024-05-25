@@ -4,7 +4,7 @@
   align-items: center;
   padding: 5rem;
   /* Set the background image */
-  background-image: url("/src/assets/Parallax1.svg"); /* Replace with your image path */
+  /* background-image: url("/src/assets/Parallax1.svg"); Replace with your image path */
   background-repeat: no-repeat; /* Ensure the image doesn't repeat */
   background-position: bottom center; /* Position the image at the bottom center */
   background-size: cover; /* Make sure the image covers the entire area */

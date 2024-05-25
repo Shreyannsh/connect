@@ -6,32 +6,31 @@ const Intro = () => {
   return (
     <div className="introPage">
       <div className="topSection">
-        <div className="leftSection">
-          <h1>LOGO</h1>
-          <h2>Loreum ipsum solo et Loreum ipsum solo et.</h2>
-          <p className="text">
-            Egohet kaplatuna. Ana. Id. Psykotyp nötigt. Nenat. Isam. Teleligt
-            supravanade. Antere dekas. Reangar. Snackis but. Dekang trejon.
-            Virad. Diar naning. Donera avis. Lånegarderob nede. Deepfake
-            reaform. Tetisävis e-learning. Kroviling nyvis. Gardinhängarjobb
-            kyhet. Spement.
-          </p>
-        </div>
-        <div className="rightSection"></div>
+        <div>{ICONS.connectLogoWhite}</div>
+        <p className="introTagline">
+          Discover Your Next Adventure: Connect Across Industries!
+        </p>
+        <p className="introText">
+          Welcome to Main Connect! Whether you're into building, pet care, home
+          services, events, entertainment, or healthcare, we've got something
+          exciting for you. Join our community of passionate individuals and
+          explore endless opportunities. From shaping skylines to nurturing
+          pets, creating memorable events, and improving lives, your next
+          adventure starts here. Sign up now and let's connect industries,
+          connect lives!
+        </p>
+        <div className="getStartedBtn">Get started</div>
       </div>
-      <Navbar />
-      <div className="line">{ICONS.line}</div>
-      <div className="container">
-        <div>
-          <h2>Construction Section</h2>
-          <p>
-            Cementing Dreams, Crafting Futures": At Connect, our success is
-            built on the dedication of every member of our team, from skilled
-            labourers to seasoned professionals...
-          </p>
-          <div>{ICONS.scrollCursor} More details</div>
-        </div>
-        <div></div>
+      <div className="socialmediaLinks">
+        <div>{ICONS.whatsappIcon}</div>
+        <div>{ICONS.discordIcon}</div>
+        <div>{ICONS.facebookIcon}</div>
+        <div>{ICONS.linkedInIcon}</div>
+        <div>{ICONS.twitterIcon}</div>
+        <div>{ICONS.instaIcon}</div>
+      </div>
+      <div className="">
+        <Navbar />
       </div>
     </div>
   );
