@@ -4,9 +4,12 @@ import { ReactComponent as LogoWithoutLine } from "../assets/Connect logo(Withou
 
 import { ReactComponent as Parallax } from "../assets/Parallax1.svg";
 
+import { ReactComponent as Line3 } from "../assets/Line 3.svg";
+
 export const ICONS = {
   logo: <Logo />,
   mouseScroll: <MouseScroll />,
   logoWithoutLine: <LogoWithoutLine />,
   parallax: <Parallax />,
+  line: <Line3 />,
 };

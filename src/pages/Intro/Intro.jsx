@@ -1,5 +1,6 @@
 import "./Intro.css";
 import Navbar from "./Navbar/Navbar";
+import { ICONS } from "../../icons";
 
 const Intro = () => {
   return (
@@ -19,6 +20,8 @@ const Intro = () => {
         <div className="rightSection"></div>
       </div>
       <Navbar />
+      <div>{ICONS.line}</div>
+      <div></div>
     </div>
   );
 };
