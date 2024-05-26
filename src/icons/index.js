@@ -11,7 +11,8 @@ import { ReactComponent as TwitterIcon } from "./assets/twitter Icon.svg";
 import { ReactComponent as LinkedInIcon } from "./assets/linkedin Icon.svg";
 import { ReactComponent as InstaIcon } from "./assets/insta Icon.svg";
 import { ReactComponent as FacebookIcon } from "./assets/facebook Icon.svg";
-import { ReactComponent as ArrowKey } from "./assets/arrowKey.svg";
+import { ReactComponent as ArrowKeyBlack } from "./assets/arrowKey.svg";
+import { ReactComponent as ArrowKeyWhite } from "./assets/arrowKeyWhite.svg";
 
 export const ICONS = {
   logo: <Logo />,
@@ -27,5 +28,6 @@ export const ICONS = {
   linkedInIcon: <LinkedInIcon />,
   instaIcon: <InstaIcon />,
   facebookIcon: <FacebookIcon />,
-  arrowKey: <ArrowKey />,
+  arrowKeyBlack: <ArrowKeyBlack />,
+  arrowKeyWhite: <ArrowKeyWhite />,
 };

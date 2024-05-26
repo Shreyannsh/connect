@@ -10,6 +10,7 @@
   flex-direction: column;
   gap: 2rem;
   position: relative;
+  margin-top: -40px;
 }
 
 .introTagline {
@@ -44,6 +45,7 @@
   background: #fff;
   color: rgba(37, 39, 98, 1);
   box-shadow: 0px 0px 34.1px 0px rgba(104, 180, 255, 0.5);
+  cursor: pointer;
 }
 
 .getStartedBtn {
@@ -55,6 +57,11 @@
   align-items: center;
   gap: 12px;
 }
+
+.getStartedBtn:hover {
+  font-weight: bold;
+}
+
 .socialmediaLinks {
   display: flex;
   flex-direction: column;
@@ -84,7 +91,6 @@
   padding: 40px;
   align-items: center;
   gap: 60px;
-  flex: 1 0 0;
   border-radius: 8px;
   background: #fff;
   box-shadow: 34.854px 29.626px 48.34px 0px rgba(0, 0, 0, 0.05);
@@ -104,7 +110,7 @@
 }
 
 .contentImage {
-  width: 40%;
+  width: 50%;
 }
 
 .contentText {
@@ -113,6 +119,7 @@
   align-items: flex-start;
   text-align: left;
   gap: 30px;
+  width: 50%;
 }
 
 .contentTextHeader {
@@ -125,19 +132,8 @@
 
 .contextTextDetail {
   color: #5a5a5a;
-  /* Title 3 · 20/Regular · 20 */
-  font-family: "SF Pro Display";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 140% */
-}
-
-.moreDetailBtn {
-  display: flex;
-  height: 42px;
-  padding: 5px 20px;
-  align-items: center;
-  border-radius: 8px;
-  background: linear-gradient(0deg, #fed462 0%, #fed462 100%), #000;
+  line-height: 28px;
 }

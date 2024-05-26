@@ -1,31 +1,40 @@
 .introParent {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .introNavbar {
   display: flex;
   width: 70%;
-  padding: 20px 50px;
-  justify-content: space-between;
-  align-items: flex-start;
-  height: 25px;
-  gap: 28px;
-  display: flex;
+  gap: 6%;
   align-items: center;
   position: absolute;
-  padding-left: 30px;
   margin-top: -40px;
   border-radius: 8px;
   background: #fff;
   box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.1);
   z-index: 2;
+  padding: 0px 30px;
+  min-height: 80px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .option {
   color: #a9a9a9;
+  width: auto;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
+  padding: 25px 0px;
+  border-bottom: 2px solid #fff;
+}
+
+.option:hover {
+  color: black;
+  font-weight: 600;
+  border-bottom: 2px solid black;
 }

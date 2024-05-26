@@ -1,0 +1,12 @@
+.moreDetailBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 42px;
+  padding: 0px 20px;
+  align-items: center;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  /* background-color: linear-gradient(0deg, #fed462 0%, #fed462 100%), #000; */
+}

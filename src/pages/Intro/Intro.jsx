@@ -2,6 +2,7 @@ import "./Intro.css";
 import Navbar from "./Navbar/Navbar";
 import { ICONS } from "../../icons";
 import "../../images/assets/Frame construction.svg";
+import MoreDetailBtn from "../../components/moreDetailButton/MoreDetailButton";
 
 const Intro = () => {
   return (
@@ -50,8 +51,140 @@ const Intro = () => {
               built on the dedication of every member of our team, from skilled
               labourers to seasoned professionals...
             </p>
-            <div className="moreDetailBtn">More details</div>
+            <MoreDetailBtn
+              text="More Details"
+              backgroundcolor="linear-gradient(0deg, #FED462 0%, #FED462 100%), #000"
+              color="rgba(0, 0, 0, 1)"
+            />
+            {/* <div className="moreDetailBtn">More details {ICONS.arrowKey}</div> */}
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="headingShadow">Health Care</div>
+        <div className="containerContent">
+          <div className="contentText">
+            <p className="contentTextHeader">
+              Your Health, Our Promise of Excellence and Care
+            </p>
+            <p className="contentTextDetail">
+              Connect offers personalized healthcare solutions, from home care
+              to telemedicine, ensuring top-notch care with innovation and
+              compassion. Trust us to enhance your health and quality of life.
+            </p>
+            <MoreDetailBtn
+              text="More Details"
+              backgroundcolor="linear-gradient(0deg, #FF847C 0%, #FF847C 100%), #FFF"
+              color="#FFF"
+            />
+          </div>
+          <img
+            src={require("../../images/assets/Frame construction.svg").default}
+            alt=""
+            className="contentImage"
+          />
+        </div>
+      </div>
+      <div className="container">
+        <div className="headingShadow">Event</div>
+        <div className="containerContent">
+          <img
+            src={require("../../images/assets/Frame construction.svg").default}
+            alt=""
+            className="contentImage"
+          />
+          <div className="contentText">
+            <p className="contentTextHeader">
+              Find the Best Teams and Vendors for Your Event
+            </p>
+            <p className="contentTextDetail">
+              Discover and hire top-rated teams and vendors effortlessly.
+              Whether you need caterers, entertainers, decorators, or support
+              staff, our platform connects you with the best professionals in
+              the industry.
+            </p>
+            <MoreDetailBtn
+              text="More Details"
+              backgroundcolor=" linear-gradient(0deg, #FF8A00 0%, #FF8A00 100%), #FFF"
+              color="#FFF"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="headingShadow">Entertainment</div>
+        <div className="containerContent">
+          <div className="contentText">
+            <p className="contentTextHeader">
+              Your Gateway to the Entertainment World
+            </p>
+            <p className="contentTextDetail">
+              Join our vibrant community of entertainment professionals and
+              enthusiasts. Network, collaborate, and celebrate the arts in
+              music, film, theatre, and more.
+            </p>
+            <MoreDetailBtn
+              text="More Details"
+              backgroundcolor="linear-gradient(0deg, #FF8A00 0%, #FF8A00 100%), #FFFlinear-gradient(0deg, #706EE6 0%, #706EE6 100%), #FFF;"
+              color="#FFF"
+            />
+          </div>
+          <img
+            src={require("../../images/assets/Frame construction.svg").default}
+            alt=""
+            className="contentImage"
+          />
+        </div>
+      </div>
+      <div className="container">
+        <div className="headingShadow">Home Services</div>
+        <div className="containerContent">
+          <img
+            src={require("../../images/assets/Frame construction.svg").default}
+            alt=""
+            className="contentImage"
+          />
+          <div className="contentText">
+            <p className="contentTextHeader">
+              Experience Top-Notch Home Services with CONNECT
+            </p>
+            <p className="contentTextDetail">
+              Professional, Reliable, and Convenient Solutions Tailored to Your
+              Needs – All at Your Doorstep
+            </p>
+            <MoreDetailBtn
+              text="More Details"
+              backgroundcolor=" linear-gradient(0deg, #706EE6 0%, #706EE6 100%), #FFF"
+              color="#FFF"
+            />
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="headingShadow">Petcare</div>
+        <div className="containerContent">
+          <div className="contentText">
+            <p className="contentTextHeader">
+              Join Our Network of Top-Tier Pet Care Professionals
+            </p>
+            <p className="contentTextDetail">
+              We're excited to introduce you to our company and the wonderful
+              world of pet care. Whether you're a pet owner looking for
+              top-notch services or a pet lover interested in joining our
+              community, you've come to the right place. Let's dive in and
+              explore what we have to offer!
+            </p>
+            <MoreDetailBtn
+              text="More Details"
+              backgroundcolor="linear-gradient(0deg, #CF76DD 0%, #CF76DD 100%), #FFF"
+              color="#FFF"
+            />
+          </div>
+          <img
+            src={require("../../images/assets/Frame construction.svg").default}
+            alt=""
+            className="contentImage"
+          />
         </div>
       </div>
 
