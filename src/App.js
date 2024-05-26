@@ -2,6 +2,7 @@ import "./App.css";
 import LandingPage from "./pages/LandingPage/Landingpage";
 import SignupPage from "./pages/SignupPage/SignupPage";
 import Intro from "./pages/Intro/Intro";
+import ChatButton from "./components/chatButton/chatButton";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* <LandingPage /> */}
       {/* <SignupPage /> */}
       <Intro />
+      <ChatButton />
     </div>
   );
 }

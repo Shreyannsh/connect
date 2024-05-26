@@ -13,6 +13,7 @@ import { ReactComponent as InstaIcon } from "./assets/insta Icon.svg";
 import { ReactComponent as FacebookIcon } from "./assets/facebook Icon.svg";
 import { ReactComponent as ArrowKeyBlack } from "./assets/arrowKey.svg";
 import { ReactComponent as ArrowKeyWhite } from "./assets/arrowKeyWhite.svg";
+import { ReactComponent as ChatLogo } from "./assets/fluent_chat-icon.svg";
 
 export const ICONS = {
   logo: <Logo />,
@@ -30,4 +31,5 @@ export const ICONS = {
   facebookIcon: <FacebookIcon />,
   arrowKeyBlack: <ArrowKeyBlack />,
   arrowKeyWhite: <ArrowKeyWhite />,
+  chatLogo: <ChatLogo />,
 };

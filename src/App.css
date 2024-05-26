@@ -5,3 +5,15 @@
 :root {
   --primary: #252762;
 }
+
+.chatButton {
+  position: absolute;
+  border-radius: 8px 0px 0px 8px;
+  background: #fff;
+  box-shadow: 20px 20px 40px 0px rgba(0, 0, 0, 0.1);
+  top: 650px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
