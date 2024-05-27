@@ -93,17 +93,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: left;
-  left: 0;
-  width: 100%;
+  flex-wrap: wrap;
+  width: 70%;
 }
 
 .headingShadow {
   position: relative;
-  left: 0px;
-  top: 35px;
+  align-self: flex-start;
+  top: 28px;
   color: #122577;
-  font-size: 7rem;
+  font-size: 7vw;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
@@ -114,7 +113,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 70%;
+  max-width: 100%;
   padding: 40px;
   border-radius: 8px;
   background: #fff;
@@ -124,7 +123,9 @@
 }
 
 .contentImage {
-  width: 50%;
+  width: 100%; /* Set to 100% for better wrapping */
+  width: 5rem; /* Allow it to take full width on smaller screens */
+  flex: 1 1 50%; /* Adjust the flex property to allow wrapping */
 }
 
 .contentText {
@@ -133,7 +134,9 @@
   align-items: flex-start;
   text-align: left;
   gap: 30px;
-  width: 50%;
+  width: 100%; /* Set to 100% for better wrapping */
+  width: 50rem; /* Allow it to take full width on smaller screens */
+  flex: 1 1 50%; /* Adjust the flex property to allow wrapping */
 }
 
 .contentTextHeader {

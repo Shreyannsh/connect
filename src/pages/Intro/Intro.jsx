@@ -40,7 +40,9 @@ const Intro = () => {
             <div className="headingShadow">Construction</div>
             <div className="containerContent">
               <img
-                src={require("../../images/assets/Frame neww.svg").default}
+                src={
+                  require("../../images/assets/Frame construction.svg").default
+                }
                 alt=""
                 className="contentImage"
               />
@@ -88,7 +90,7 @@ const Intro = () => {
               </div>
               <img
                 src={
-                  require("../../images/assets/Frame construction.svg").default
+                  require("../../images/assets/Frame healthcare.svg").default
                 }
                 alt=""
                 className="contentImage"
@@ -101,9 +103,7 @@ const Intro = () => {
             <div className="headingShadow">Event</div>
             <div className="containerContent">
               <img
-                src={
-                  require("../../images/assets/Frame construction.svg").default
-                }
+                src={require("../../images/assets/Frame neww.svg").default}
                 alt=""
                 className="contentImage"
               />
@@ -147,7 +147,7 @@ const Intro = () => {
               </div>
               <img
                 src={
-                  require("../../images/assets/Frame construction.svg").default
+                  require("../../images/assets/frame entertainment.svg").default
                 }
                 alt=""
                 className="contentImage"
@@ -160,9 +160,7 @@ const Intro = () => {
             <div className="headingShadow">Home Services</div>
             <div className="containerContent">
               <img
-                src={
-                  require("../../images/assets/Frame construction.svg").default
-                }
+                src={require("../../images/assets/frame services.svg").default}
                 alt=""
                 className="contentImage"
               />
@@ -205,9 +203,7 @@ const Intro = () => {
                 />
               </div>
               <img
-                src={
-                  require("../../images/assets/Frame construction.svg").default
-                }
+                src={require("../../images/assets/frame petcare.svg").default}
                 alt=""
                 className="contentImage"
               />
