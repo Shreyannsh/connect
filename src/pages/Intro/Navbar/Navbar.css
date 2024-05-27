@@ -1,7 +1,6 @@
 .introParent {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
 }
 
 .introNavbar {
@@ -18,7 +17,6 @@
   padding: 0px 30px;
   min-height: 80px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 
 .option {
