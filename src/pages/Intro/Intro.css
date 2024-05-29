@@ -158,6 +158,12 @@
   line-height: 28px;
 }
 
+.contentTextFooter {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 .footer {
   position: relative;
   /* display: flex;

@@ -3,6 +3,7 @@ import Navbar from "./Navbar/Navbar";
 import { ICONS } from "../../icons";
 // import "../../images/assets/Frame construction.svg";
 import MoreDetailBtn from "../../components/moreDetailButton/MoreDetailButton";
+import LoginButton from "../../components/loginButton/loginbutton";
 
 const Intro = () => {
   return (
@@ -58,12 +59,14 @@ const Intro = () => {
                   is built on the dedication of every member of our team, from
                   skilled labourers to seasoned professionals...
                 </p>
-                <MoreDetailBtn
-                  text="More Details"
-                  backgroundcolor="linear-gradient(0deg, #FED462 0%, #FED462 100%), #000"
-                  color="rgba(0, 0, 0, 1)"
-                />
-                {/* <div className="moreDetailBtn">More details {ICONS.arrowKey}</div> */}
+                <div className="contentTextFooter">
+                  <MoreDetailBtn
+                    text="More Details"
+                    backgroundcolor="linear-gradient(0deg, #FED462 0%, #FED462 100%), #000"
+                    color="rgba(0, 0, 0, 1)"
+                  />
+                  <LoginButton backgroundColor="rgba(254, 212, 98, 0.10)" />
+                </div>
               </div>
             </div>
           </div>
@@ -82,11 +85,14 @@ const Intro = () => {
                   and compassion. Trust us to enhance your health and quality of
                   life.
                 </p>
-                <MoreDetailBtn
-                  text="More Details"
-                  backgroundcolor="linear-gradient(0deg, #FF847C 0%, #FF847C 100%), #FFF"
-                  color="#FFF"
-                />
+                <div className="contentTextFooter">
+                  <MoreDetailBtn
+                    text="More Details"
+                    backgroundcolor="linear-gradient(0deg, #FF847C 0%, #FF847C 100%), #FFF"
+                    color="#FFF"
+                  />
+                  <LoginButton backgroundColor="rgba(255, 132, 124, 0.10)" />
+                </div>
               </div>
               <img
                 src={
@@ -100,7 +106,7 @@ const Intro = () => {
         </div>
         <div className="container">
           <div className="childContainer">
-            <div className="headingShadow">Construction</div>
+            <div className="headingShadow">Event</div>
             <div className="containerContent">
               <img
                 src={require("../../images/assets/Frame event.svg").default}
@@ -120,12 +126,14 @@ const Intro = () => {
                   support staff, our platform connects you with the best
                   professionals in the industry.
                 </p>
-                <MoreDetailBtn
-                  text="More Details"
-                  backgroundcolor="linear-gradient(0deg, #FED462 0%, #FED462 100%), #000"
-                  color="rgba(0, 0, 0, 1)"
-                />
-                {/* <div className="moreDetailBtn">More details {ICONS.arrowKey}</div> */}
+                <div className="contentTextFooter">
+                  <MoreDetailBtn
+                    text="More Details"
+                    backgroundcolor="linear-gradient(0deg, #FED462 0%, #FED462 100%), #000"
+                    color="rgba(0, 0, 0, 1)"
+                  />
+                  <LoginButton backgroundColor="rgba(255, 132, 124, 0.10)" />
+                </div>
               </div>
             </div>
           </div>
@@ -143,11 +151,14 @@ const Intro = () => {
                   enthusiasts. Network, collaborate, and celebrate the arts in
                   music, film, theatre, and more.
                 </p>
-                <MoreDetailBtn
-                  text="More Details"
-                  backgroundcolor="linear-gradient(0deg, #FF8A00 0%, #FF8A00 100%), #FFF"
-                  color="#FFF"
-                />
+                <div className="contentTextFooter">
+                  <MoreDetailBtn
+                    text="More Details"
+                    backgroundcolor="linear-gradient(0deg, #FF8A00 0%, #FF8A00 100%), #FFF"
+                    color="#FFF"
+                  />
+                  <LoginButton backgroundColor="rgba(255, 132, 124, 0.10)" />
+                </div>
               </div>
               <img
                 src={
@@ -176,11 +187,14 @@ const Intro = () => {
                   Professional, Reliable, and Convenient Solutions Tailored to
                   Your Needs – All at Your Doorstep
                 </p>
-                <MoreDetailBtn
-                  text="More Details"
-                  backgroundcolor=" linear-gradient(0deg, #706EE6 0%, #706EE6 100%), #FFF"
-                  color="#FFF"
-                />
+                <div className="contentTextFooter">
+                  <MoreDetailBtn
+                    text="More Details"
+                    backgroundcolor=" linear-gradient(0deg, #706EE6 0%, #706EE6 100%), #FFF"
+                    color="#FFF"
+                  />
+                  <LoginButton backgroundColor="rgba(112, 110, 230, 0.10)" />
+                </div>
               </div>
             </div>
           </div>
@@ -200,11 +214,14 @@ const Intro = () => {
                   joining our community, you've come to the right place. Let's
                   dive in and explore what we have to offer!
                 </p>
-                <MoreDetailBtn
-                  text="More Details"
-                  backgroundcolor="linear-gradient(0deg, #CF76DD 0%, #CF76DD 100%), #FFF"
-                  color="#FFF"
-                />
+                <div className="contentTextFooter ">
+                  <MoreDetailBtn
+                    text="More Details"
+                    backgroundcolor="linear-gradient(0deg, #CF76DD 0%, #CF76DD 100%), #FFF"
+                    color="#FFF"
+                  />
+                  <LoginButton backgroundColor="rgba(207, 118, 221, 0.10)" />
+                </div>
               </div>
               <img
                 src={require("../../images/assets/frame petcare.svg").default}
