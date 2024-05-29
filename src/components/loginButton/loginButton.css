@@ -1,0 +1,9 @@
+.loginBtn {
+  display: flex;
+  height: 42px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: rgba(254, 212, 98, 0.1);
+}

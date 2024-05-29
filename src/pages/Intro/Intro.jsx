@@ -4,8 +4,6 @@ import { ICONS } from "../../icons";
 // import "../../images/assets/Frame construction.svg";
 import MoreDetailBtn from "../../components/moreDetailButton/MoreDetailButton";
 
-import "../../images/assets/businessWomenImage.svg";
-
 const Intro = () => {
   return (
     <div className="introPage">
@@ -102,17 +100,20 @@ const Intro = () => {
         </div>
         <div className="container">
           <div className="childContainer">
-            <div className="headingShadow">Event</div>
+            <div className="headingShadow">Construction</div>
             <div className="containerContent">
               <img
-                src={require("../../images/assets/Frame neww.svg").default}
+                src={require("../../images/assets/Frame event.svg").default}
                 alt=""
                 className="contentImage"
               />
               <div className="contentText">
-                <p className="contentTextHeader">
-                  Find the Best Teams and Vendors for Your Event
-                </p>
+                <div>
+                  <p className="contentTextHeader">
+                    Find the Best Teams and Vendors for Your Event construction
+                  </p>
+                </div>
+
                 <p className="contentTextDetail">
                   Discover and hire top-rated teams and vendors effortlessly.
                   Whether you need caterers, entertainers, decorators, or
@@ -121,9 +122,10 @@ const Intro = () => {
                 </p>
                 <MoreDetailBtn
                   text="More Details"
-                  backgroundcolor=" linear-gradient(0deg, #FF8A00 0%, #FF8A00 100%), #FFF"
-                  color="#FFF"
+                  backgroundcolor="linear-gradient(0deg, #FED462 0%, #FED462 100%), #000"
+                  color="rgba(0, 0, 0, 1)"
                 />
+                {/* <div className="moreDetailBtn">More details {ICONS.arrowKey}</div> */}
               </div>
             </div>
           </div>
