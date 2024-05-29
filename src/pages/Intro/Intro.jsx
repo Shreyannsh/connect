@@ -248,12 +248,18 @@ const Intro = () => {
                   consumers and top-tier service providers across all sectors.
                 </p>
                 <div className="socialmediaLogosFooter">
-                  <div>{ICONS.facebookIconBlue}</div>
-                  <div>{ICONS.twitterIconBlue}</div>
-                  <div>{ICONS.discordIconBlue}</div>
-                  <div>{ICONS.whatsappIconBlue}</div>
-                  <div>{ICONS.linkedInIconBlue}</div>
-                  <div>{ICONS.instaIconBlue}</div>
+                  <div className="socialMediaIcon">
+                    {ICONS.facebookIconBlue}
+                  </div>
+                  <div className="socialMediaIcon">{ICONS.twitterIconBlue}</div>
+                  <div className="socialMediaIcon">{ICONS.discordIconBlue}</div>
+                  <div className="socialMediaIcon">
+                    {ICONS.whatsappIconBlue}
+                  </div>
+                  <div className="socialMediaIcon">
+                    {ICONS.linkedInIconBlue}
+                  </div>
+                  <div className="socialMediaIcon">{ICONS.instaIconBlue}</div>
                 </div>
               </div>
               <div className="footerSection">
