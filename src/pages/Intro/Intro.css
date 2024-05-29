@@ -75,6 +75,9 @@
 
 .section {
   padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container {
@@ -100,7 +103,7 @@
 .headingShadow {
   position: relative;
   align-self: flex-start;
-  top: 28px;
+  top: 2rem;
   color: #122577;
   font-size: 7vw;
   font-style: normal;
@@ -153,4 +156,130 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+}
+
+.footer {
+  position: relative;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+
+.footerHead {
+  background: #4c4ddc;
+  height: 40vh;
+  align-self: stretch;
+}
+
+.footerLower {
+  display: flex;
+  padding: 192px 160px 30px 160px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+  background: #f8f9ff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logofooter {
+  width: 160px;
+}
+
+.socialmediaLogosFooter {
+  gap: 1rem;
+  display: flex;
+}
+
+.footerContent {
+  display: flex;
+  height: 333px;
+  justify-content: space-between;
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
+}
+
+.footerSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.footerSection p {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+}
+
+.footerSection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 30%;
+  text-align: left;
+}
+
+.footerSection1 p {
+  align-self: stretch;
+}
+
+.footerBottom {
+  padding: 20px 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f9ff;
+  color: #272727;
+}
+
+.footerBottomOptions {
+  display: flex;
+  gap: 1rem;
+}
+
+.footerComponent {
+  display: flex;
+  width: 82%;
+  padding: 60px;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+  top: 22%;
+  border-radius: 30px;
+  background: #fff;
+  box-shadow: 0px 0px 48.34px 0px rgba(0, 0, 0, 0.05);
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footerComponentText {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.footerComponentHeader {
+  color: #00183d;
+  font-family: "SF Pro Display";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.enquireBtn {
+  display: flex;
+  width: 100px;
+  height: 30px;
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 8px;
+  background: #122577;
+  color: rgba(255, 255, 255, 1);
 }

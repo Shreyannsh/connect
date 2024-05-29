@@ -4,6 +4,8 @@ import { ICONS } from "../../icons";
 // import "../../images/assets/Frame construction.svg";
 import MoreDetailBtn from "../../components/moreDetailButton/MoreDetailButton";
 
+import "../../images/assets/businessWomenImage.svg";
+
 const Intro = () => {
   return (
     <div className="introPage">
@@ -210,6 +212,97 @@ const Intro = () => {
             </div>
           </div>
         </div>
+        <footer className="footer">
+          <div className="footerHead"></div>
+          <div className="footerComponent">
+            <div className="footerComponentText">
+              <p className="footerComponentHeader">
+                Start Your Journey to Better Health Today!
+              </p>
+              <p className="footerComponentContent">
+                Join us in revolutionizing healthcare with our personalized and
+                convenient services. Whether you need home care, telemedicine,
+                or specialist consultations, we're here to support your health
+                and well-being. Get started now and experience top-quality care
+                at your fingertips.
+              </p>
+              <p className="enquireBtn">Enqiry Now</p>
+            </div>
+
+            <div>
+              <img src="../../images/assets/businessWomenImage.svg" />
+            </div>
+          </div>
+          <div className="footerLower">
+            <div className="footerContent">
+              <div className="footerSection1">
+                <img
+                  src={
+                    require("../../icons/assets/Connect logo LB 1.svg").default
+                  }
+                  alt=""
+                  className="logofooter"
+                />
+                <p>
+                  At Connect, we are dedicated to bridging the gap between
+                  consumers and top-tier service providers across all sectors.
+                </p>
+                <div className="socialmediaLogosFooter">
+                  <div>{ICONS.facebookIconBlue}</div>
+                  <div>{ICONS.twitterIconBlue}</div>
+                  <div>{ICONS.discordIconBlue}</div>
+                  <div>{ICONS.whatsappIconBlue}</div>
+                  <div>{ICONS.linkedInIconBlue}</div>
+                  <div>{ICONS.instaIconBlue}</div>
+                </div>
+              </div>
+              <div className="footerSection">
+                <p>
+                  <b>Company</b>
+                </p>
+                <p>About us</p>
+                <p>Our Services</p>
+                <p>Our Process</p>
+                <p>opportunities</p>
+                <p>FAQs</p>
+              </div>
+              <div className="footerSection">
+                <p>
+                  <b>Support</b>
+                </p>
+                <p>Help Center</p>
+                <p>Feedback</p>
+              </div>
+              <div className="footerSection">
+                <p>
+                  <b>Other Sectors</b>
+                </p>
+                <p>Construction</p>
+                <p>Pet Care</p>
+                <p>Health Care</p>
+                <p>Home Services</p>
+                <p>Events</p>
+                <p>Entertainment</p>
+              </div>
+              <div className="footerSection">
+                <p>
+                  <b>Contact Us</b>
+                </p>
+                <p>{ICONS.phonecallIcon} (91) 0123456789</p>
+                <p>{ICONS.mailIcon} Connect123@gmail.com</p>
+                <p>{ICONS.location} Mumbai landmark, name, office</p>
+              </div>
+            </div>
+          </div>
+          <div className="footerBottom">
+            <p>Copyright by Connect pvt ltd. All right reserved</p>
+            <div className="footerBottomOptions">
+              <p>Privacy policy</p>
+              <p>Terms of Use</p>
+              <p>Legal</p>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
