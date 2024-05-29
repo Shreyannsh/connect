@@ -16,7 +16,6 @@
 .introTagline {
   color: #fff;
   text-align: center;
-  font-family: "SF Pro Display";
   font-size: 50px;
   font-style: normal;
   font-weight: 600;
@@ -123,6 +122,7 @@
   box-shadow: 34.854px 29.626px 48.34px 0px rgba(0, 0, 0, 0.05);
   z-index: 1;
   flex-wrap: wrap;
+  /* gap: 10px; */
 }
 
 .contentImage {
@@ -280,7 +280,6 @@
 
 .footerComponentHeader {
   color: #00183d;
-  font-family: "SF Pro Display";
   font-size: 36px;
   font-style: normal;
   font-weight: 700;

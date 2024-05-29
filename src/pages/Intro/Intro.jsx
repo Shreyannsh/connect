@@ -214,7 +214,7 @@ const Intro = () => {
                   joining our community, you've come to the right place. Let's
                   dive in and explore what we have to offer!
                 </p>
-                <div className="contentTextFooter ">
+                <div className="contentTextFooter">
                   <MoreDetailBtn
                     text="More Details"
                     backgroundcolor="linear-gradient(0deg, #CF76DD 0%, #CF76DD 100%), #FFF"
